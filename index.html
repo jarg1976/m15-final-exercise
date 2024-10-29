@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>TechPath Mentoria</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">TechPath Mentoria</a>
+            </div>
+        </nav>
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="bg-image-full" style="background-image: url(./assets/bg.jpg)">
+            <div class="text-center">
+                <img class="img-fluid mb-4" style="border-radius: 10px;width:500px;padding:15px; margin:20px; background-color:rgba(153, 204, 255, 0.6);" src="./assets/logo-tm.png" alt="..." />
+                
+            </div>
+        </header>
+        <!-- Content section-->
+        <section>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>Enunciado do Projeto:</h2>
+                        <p class="mb-0">
+                            A TechPath Mentoria é uma empresa inovadora que oferece um serviço de acompanhamento personalizado a estudantes e
+                            profissionais da área de tecnologia que querem aprimorar as suas competências técnicas e comportamentais. O serviço estabelece uma ligação entre
+                            alunos e mentores experientes, que avaliam o progresso de cada aluno em sessões periódicas, oferecendo feedback
+                            detalhado e dicas de melhoria.
+
+                        </p>
+                        <p class="mb-0">
+                            Para suportar este serviço, a TechPath Mentoria precisa de uma base de dados que organize todas as informações sobre
+                            alunos, mentores, sessões de mentoria e avaliações. Esta base de dados ajudará a empresa a monitorizar o progresso dos
+                            alunos, identificar os que se destacam e fornecer relatórios mensais de desempenho.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section-->
+        <section>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>Requisitos de negócio para a Base de Dados</h2>
+                        <p class="mb-0">
+                            <strong>1.</strong> Registo de Alunos: A empresa quer manter registos de todos os alunos inscritos no programa de mentoria. Para cada aluno,
+                            é importante armazenar informações de contacto, dados pessoais e a data em que o aluno se inscreveu no programa.
+                        </p>
+                        <p class="mb-0">
+                            <strong>2.</strong> Informações sobre Mentores: Cada mentor possui uma área de especialização, como “Programação”, “Data Science” ou
+                            “Comunicação Interpessoal”, e atua em várias sessões de mentoria com diferentes alunos. Para cada mentor, é necessário
+                            manter dados básicos de contacto e a sua área de atuação.
+                        </p>
+                        <p class="mb-0">
+                            <strong>3.</strong> Sessões de Mentoria: As sessões de mentoria são realizadas regularmente entre mentores e alunos. Para cada sessão, a
+                            empresa quer registar a data em que ocorreu, o tema abordado e uma avaliação do desempenho do aluno, atribuída pelo
+                            mentor numa escala de 1 a 10. Esse acompanhamento é essencial para entender a evolução do aluno ao longo do tempo.
+                        </p>
+                        <p class="mb-0">
+                            <strong>4.</strong> Histórico de Avaliações: A Mentoria Conectada deseja também manter um histórico mensal das avaliações de cada aluno,
+                            permitindo calcular uma média do seu desempenho ao longo dos meses. Este histórico servirá para filtrar os alunos com
+                            melhor desempenho, definindo um padrão de excelência para o programa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>Objetivos para o Projeto</h2>
+                        <p class="mb-0">
+                            <strong>.</strong> Identificar as entidades e relações necessárias para a base de dados, construindo um Modelo ER que respeite os
+                            requisitos de negócio.
+                        </p>
+                        <p class="mb-0">
+                            <strong>.</strong> Criar um script SQL para construir a base de dados, incluindo as tabelas e colunas definidas com base no modelo ER e
+                            selecionando os tipos de dados mais adequados.
+                        </p>
+                        <p class="mb-0">
+                            <strong>.</strong> Incluir chaves primárias, estrangeiras e índices que otimizem a estrutura e garantam a integridade referencial da base
+                            de dados.
+                        </p>
+                        <p class="mb-0">
+                            <strong>.</strong> Inserir registos de exemplo para cada tabela criada na base de dados. O mínimo necessário inclui: 3
+                            mentores, cada um com uma área de especialização distinta; 3 alunos, com dados pessoais completos e datas de inscrição;
+                            pelo menos 6 sessões de mentoria, que devem associar mentores a alunos e incluir as datas, temas abordados e uma
+                            avaliação do desempenho de cada aluno. Além disso, deve haver registos suficientes no histórico de avaliações para
+                            calcular uma média mensal de desempenho para cada aluno, possibilitando a análise da sua evolução.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <p class="mb-0">
+                            Este projeto permitirá à empresa identificar os alunos com maior potencial e acompanhar o desenvolvimento
+                            contínuo de cada um, com base nos dados registados sobre a participação e avaliações ao longo dos programas de mentoria.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; JARG 2024</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
